@@ -21,7 +21,6 @@ const ProductCard = ({ product, home }) => {
                     Best Seller
                 </span>
             )}
-
             <Link to={`/product-details/${product._id}`} className='h-full' >
 
                 {/* Img */}
